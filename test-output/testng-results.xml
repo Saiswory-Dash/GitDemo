@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="10" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-14T23:09:41 IST" name="Loan Department" finished-at="2024-03-14T23:09:41 IST" duration-ms="150">
+    <groups>
+      <group name="Smoke">
+        <method signature="PersonalLoan.SmokePLoan()[pri:0, instance:test.PersonalLoan@53fdffa1]" name="SmokePLoan" class="test.PersonalLoan"/>
+        <method signature="CarLoan.SmokeLogInApiCarLoan()[pri:0, instance:test.CarLoan@194bcebf]" name="SmokeLogInApiCarLoan" class="test.CarLoan"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-03-14T23:09:41 IST" name="Car Loan" finished-at="2024-03-14T23:09:41 IST" duration-ms="48">
+      <class name="test.CarLoan">
+        <test-method is-config="true" signature="BeforeMethodWeblogInCarLoan()[pri:0, instance:test.CarLoan@194bcebf]" started-at="2024-03-14T23:09:41 IST" name="BeforeMethodWeblogInCarLoan" finished-at="2024-03-14T23:09:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodWeblogInCarLoan -->
+        <test-method signature="LogInApiCarLoan()[pri:0, instance:test.CarLoan@194bcebf]" started-at="2024-03-14T23:09:41 IST" name="LogInApiCarLoan" finished-at="2024-03-14T23:09:41 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInApiCarLoan -->
+        <test-method is-config="true" signature="AfterMethodWeblogInCarLoan()[pri:0, instance:test.CarLoan@194bcebf]" started-at="2024-03-14T23:09:41 IST" name="AfterMethodWeblogInCarLoan" finished-at="2024-03-14T23:09:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodWeblogInCarLoan -->
+        <test-method is-config="true" signature="BeforeMethodWeblogInCarLoan()[pri:0, instance:test.CarLoan@194bcebf]" started-at="2024-03-14T23:09:41 IST" name="BeforeMethodWeblogInCarLoan" finished-at="2024-03-14T23:09:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodWeblogInCarLoan -->
+        <test-method signature="SmokeLogInApiCarLoan()[pri:0, instance:test.CarLoan@194bcebf]" started-at="2024-03-14T23:09:41 IST" name="SmokeLogInApiCarLoan" finished-at="2024-03-14T23:09:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SmokeLogInApiCarLoan -->
+        <test-method is-config="true" signature="AfterMethodWeblogInCarLoan()[pri:0, instance:test.CarLoan@194bcebf]" started-at="2024-03-14T23:09:41 IST" name="AfterMethodWeblogInCarLoan" finished-at="2024-03-14T23:09:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodWeblogInCarLoan -->
+        <test-method is-config="true" signature="BeforeMethodWeblogInCarLoan()[pri:0, instance:test.CarLoan@194bcebf]" started-at="2024-03-14T23:09:41 IST" name="BeforeMethodWeblogInCarLoan" finished-at="2024-03-14T23:09:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodWeblogInCarLoan -->
+        <test-method signature="WeblogInCarLoan()[pri:0, instance:test.CarLoan@194bcebf]" started-at="2024-03-14T23:09:41 IST" name="WeblogInCarLoan" finished-at="2024-03-14T23:09:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WeblogInCarLoan -->
+        <test-method is-config="true" signature="AfterMethodWeblogInCarLoan()[pri:0, instance:test.CarLoan@194bcebf]" started-at="2024-03-14T23:09:41 IST" name="AfterMethodWeblogInCarLoan" finished-at="2024-03-14T23:09:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodWeblogInCarLoan -->
+      </class> <!-- test.CarLoan -->
+    </test> <!-- Car Loan -->
+    <test started-at="2024-03-14T23:09:41 IST" name="Personal Loan" finished-at="2024-03-14T23:09:41 IST" duration-ms="47">
+      <class name="test.PersonalLoan">
+        <test-method signature="PLoan()[pri:0, instance:test.PersonalLoan@53fdffa1]" started-at="2024-03-14T23:09:41 IST" name="PLoan" finished-at="2024-03-14T23:09:41 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PLoan -->
+        <test-method signature="SmokePLoan()[pri:0, instance:test.PersonalLoan@53fdffa1]" started-at="2024-03-14T23:09:41 IST" name="SmokePLoan" finished-at="2024-03-14T23:09:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SmokePLoan -->
+        <test-method is-config="true" signature="PLoanAfter()[pri:0, instance:test.PersonalLoan@53fdffa1]" started-at="2024-03-14T23:09:41 IST" name="PLoanAfter" finished-at="2024-03-14T23:09:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PLoanAfter -->
+      </class> <!-- test.PersonalLoan -->
+      <class name="test.Basics">
+        <test-method is-config="true" signature="PersonalLon()[pri:0, instance:test.Basics@4efc180e]" started-at="2024-03-14T23:09:41 IST" name="PersonalLon" finished-at="2024-03-14T23:09:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalLon -->
+      </class> <!-- test.Basics -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2024-03-14T23:09:41 IST" name="Home Loan" finished-at="2024-03-14T23:09:41 IST" duration-ms="11">
+      <class name="test.PersonalLoan">
+        <test-method is-config="true" signature="PLoanBeforeSuite()[pri:0, instance:test.PersonalLoan@53fdffa1]" started-at="2024-03-14T23:09:41 IST" name="PLoanBeforeSuite" finished-at="2024-03-14T23:09:41 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PLoanBeforeSuite -->
+      </class> <!-- test.PersonalLoan -->
+      <class name="test.HomeLoan">
+        <test-method signature="LogInApiHomeLoan()[pri:0, instance:test.HomeLoan@32502377]" started-at="2024-03-14T23:09:41 IST" name="LogInApiHomeLoan" finished-at="2024-03-14T23:09:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInApiHomeLoan -->
+        <test-method signature="MobilelogInHomeLoan()[pri:0, instance:test.HomeLoan@32502377]" started-at="2024-03-14T23:09:41 IST" name="MobilelogInHomeLoan" finished-at="2024-03-14T23:09:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilelogInHomeLoan -->
+        <test-method signature="WeblogInHomeLoan()[pri:0, instance:test.HomeLoan@32502377]" started-at="2024-03-14T23:09:41 IST" name="WeblogInHomeLoan" finished-at="2024-03-14T23:09:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WeblogInHomeLoan -->
+      </class> <!-- test.HomeLoan -->
+      <class name="test.Basics">
+        <test-method is-config="true" signature="AfterSuitePersonalLon()[pri:0, instance:test.Basics@4efc180e]" started-at="2024-03-14T23:09:41 IST" name="AfterSuitePersonalLon" finished-at="2024-03-14T23:09:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuitePersonalLon -->
+      </class> <!-- test.Basics -->
+    </test> <!-- Home Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
